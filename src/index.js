@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import 'typeface-roboto'
+import PersistentDrawer from './App';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-  <App />, 
+  <PersistentDrawer />, 
   document.getElementById('root')
 );
 registerServiceWorker();
